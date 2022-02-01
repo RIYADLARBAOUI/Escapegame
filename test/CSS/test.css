@@ -1,0 +1,44 @@
+body{
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: large;
+    background: aliceblue;
+    text-align: center;
+    font-style: revert;
+    font-weight: bold;
+
+}
+
+button{
+    background: aqua;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+#test{
+    display: flex;
+    justify-content: center;
+}
+
+#cercle {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background: transparent;
+    border: solid 2px;
+    font-size: xxx-large;
+    font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#zone\ haute{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    justify-items: start;
+}
