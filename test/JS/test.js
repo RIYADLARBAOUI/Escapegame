@@ -1,22 +1,24 @@
 
-function test(){
-    setTimeout("alert('tes nul')",3000);
-}
-
-document.getElementById('test').onclick(test());
 
 
-cercle = document.getElementById('cercle');
+
+
+
+let time = 10;
+
+const cercle = document.getElementById('cercle');
+
+setInterval(timer,1000);
+
 function timer(){
-    let i = 30;
-    while(i != 0){
-        cercle.innerHTML=`${i}`;
-        --i;
+    cercle.innerHTML=`${time}`;
+    --time;
+    if(time===-2){ // -2 car latence
+        alert("temps écoulé");
+        location.replace("https://twitter.com/home");
     }
 }
 
-
-setInterval("timer()",1000);
 
 
 
